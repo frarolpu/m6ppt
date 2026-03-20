@@ -1758,6 +1758,11 @@ img {
     margin-bottom: 12px;
 }
 
+.footer-logo-img {
+    height: 32px;
+    width: auto;
+}
+
 .footer-brand p {
     font-size: 0.88rem;
     color: var(--text-muted);
