@@ -1,0 +1,1054 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICE | M6 Toll Birmingham - Tolling Solution</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&family=Trebuchet+MS&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        /* Gotham Rounded approximation using Nunito Sans (closest free alternative) */
+        @font-face {
+            font-family: 'Gotham Rounded';
+            src: local('Gotham Rounded'), local('Nunito Sans');
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/sice-logo.svg" alt="SICE" class="nav-logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About SICE</a></li>
+                <li><a href="#overview" class="nav-link">Project Overview</a></li>
+                <li><a href="#scope" class="nav-link">Scope of Works</a></li>
+                <li><a href="#tolling" class="nav-link">Roadside Technology</a></li>
+                <li><a href="#aavi" class="nav-link">Image Review</a></li>
+                <li><a href="#moms" class="nav-link">MOMS</a></li>
+                <li><a href="#backoffice" class="nav-link">Back Office</a></li>
+                <li><a href="#kpi" class="nav-link">KPIs</a></li>
+                <li><a href="#proj-timeline" class="nav-link">Timeline</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-image" style="background-image: url('images/hero-m6toll-highway.jpg')"></div>
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class="fas fa-road"></i>
+                <span>M6 Toll Birmingham, UK</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up">
+                <span class="title-line">Road Ahead Project —</span>
+                <span class="title-line gradient-text">M6 Toll Project</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-delay="200">
+                A Conventional / Free-Flow Combined Tolling Solution for Britain's Best Motorway
+            </p>
+            <div class="hero-stats" data-aos="fade-up" data-delay="400">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="27">0</span>
+                    <span class="stat-unit">miles</span>
+                    <span class="stat-label">Motorway Length</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="45">0</span>
+                    <span class="stat-unit">lanes</span>
+                    <span class="stat-label">Conventional Toll Lanes</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="19">0</span>
+                    <span class="stat-unit">sites</span>
+                    <span class="stat-label">Freeflow Sites</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="22">0</span>
+                    <span class="stat-unit">months</span>
+                    <span class="stat-label">Implementation Period</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="40000">0</span>
+                    <span class="stat-unit">vehicles/day</span>
+                    <span class="stat-label">Average Daily Traffic</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="hero-scroll">
+            <a href="#about">
+                <span>Scroll to explore</span>
+                <div class="scroll-indicator">
+                    <div class="scroll-dot"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About SICE Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">SICE — Engineering <span class="gradient-text">Innovation</span></h2>
+                <p class="section-description">
+                    SICE is a global technology company specializing in Intelligent Transportation Systems (ITS), 
+                    tolling, traffic management, and smart infrastructure solutions. Part of the Vinci Group, SICE 
+                    delivers end-to-end technology solutions across multiple continents.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-delay="100">
+                    <div class="about-icon">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <h3>Global Presence</h3>
+                    <p>Operating in over 15 countries with extensive experience in ITS projects across Europe, Americas, and Middle East.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="200">
+                    <div class="about-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Technology Leader</h3>
+                    <p>Proprietary SIDERA TOLLING platform delivering cutting-edge tolling, traffic management, and smart mobility solutions.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="300">
+                    <div class="about-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Trusted Partner</h3>
+                    <p>Decades of experience delivering mission-critical infrastructure technology to governments and private operators worldwide.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="400">
+                    <div class="about-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud-Native</h3>
+                    <p>Modern cloud-based deployments on Oracle Cloud and other platforms ensuring scalability, reliability, and security.</p>
+                </div>
+            </div>
+            <div class="about-world-map" data-aos="fade-up">
+                <p class="map-label">Our Global Footprint — 30+ Countries</p>
+                <img src="images/sice-world-map.jpg" alt="SICE global presence world map" class="world-map-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="section overview-section" id="overview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">01 — Framework</span>
+                <h2 class="section-title">Project <span class="gradient-text">Overview</span></h2>
+            </div>
+            <div class="overview-hero-image" data-aos="fade-up">
+                <img src="images/birmingham-motorway.jpg" alt="M6 Toll motorway Birmingham" class="overview-photo">
+                <div class="overview-photo-caption">
+                    <i class="fas fa-map-marker-alt"></i> M6 Toll motorway — Birmingham, West Midlands
+                </div>
+            </div>
+            <div class="overview-layout">
+                <div class="overview-main" data-aos="fade-right">
+                    <div class="overview-intro">
+                        <h3>M6 Toll — Birmingham, UK</h3>
+                        <p>
+                            Midland Expressways Limited (MEL) entrusted SICE with the <strong>design, 
+                            implementation and support</strong> of a new Tolling System for the M6 Toll 
+                            highway surrounding Birmingham in the UK. Recently "crowned" as 
+                            <strong>Britain's best motorway</strong> by 32% of HGV drivers, SICE is delivering 
+                            an end-to-end solution for this project.
+                        </p>
+                    </div>
+                    <div class="overview-features">
+                        <div class="feature-item">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <strong>Roadside Technology</strong>
+                                <span>Complete hardware and software for toll collection</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-desktop"></i>
+                            <div>
+                                <strong>Operational Back-Office</strong>
+                                <span>Real-time toll operations management</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong>Commercial Back-Office</strong>
+                                <span>Billing, accounts, and financial management</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <strong>Public Portal</strong>
+                                <span>Customer registration and account management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-sidebar" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Key Project Data</h4>
+                        <ul class="info-list">
+                            <li>
+                                <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+                                <span class="info-value">Birmingham, UK</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-road"></i> Length</span>
+                                <span class="info-value">27 miles / 43 km</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-lane"></i> Lanes</span>
+                                <span class="info-value">Dual three-lane motorway</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-calendar-alt"></i> Start</span>
+                                <span class="info-value">March 2022</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-flag-checkered"></i> Phase 1 End</span>
+                                <span class="info-value">January 2024</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-clock"></i> Period</span>
+                                <span class="info-value">6 years</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fas fa-building"></i> Client</span>
+                                <span class="info-value">MEL / Aleatica (IFM)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="section objectives-section" id="objectives">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">01 — Objectives</span>
+                <h2 class="section-title">Project <span class="gradient-text">Objectives</span></h2>
+            </div>
+            <div class="objectives-diagrams" data-aos="fade-up">
+                <div class="objectives-diagram-item">
+                    <div class="diagram-badge diagram-badge--before">Before</div>
+                    <div class="diagram-img-wrap">
+                        <img src="images/objectives-existing-plaza.png" alt="Existing toll plaza layout">
+                    </div>
+                </div>
+                <div class="objectives-diagram-arrow">
+                    <div class="arrow-inner">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <span class="arrow-label">SICE Upgrade</span>
+                </div>
+                <div class="objectives-diagram-item">
+                    <div class="diagram-badge diagram-badge--after">After</div>
+                    <div class="diagram-img-wrap">
+                        <img src="images/objectives-anpr-upgrade.png" alt="ANPR upgrade layout">
+                    </div>
+                </div>
+            </div>
+            <div class="objectives-grid">
+                <div class="objective-card" data-aos="fade-up" data-delay="100">
+                    <div class="objective-number">01</div>
+                    <h3>Upgrade Tolling System</h3>
+                    <p>Modernize the existing conventional open scheme plazas with state-of-the-art technology</p>
+                </div>
+                <div class="objective-card" data-aos="fade-up" data-delay="200">
+                    <div class="objective-number">02</div>
+                    <h3>Distance-Based Charging</h3>
+                    <p>Enable charging per distance travelled replacing the previous flat-rate toll for whole length</p>
+                </div>
+                <div class="objective-card" data-aos="fade-up" data-delay="300">
+                    <div class="objective-number">03</div>
+                    <h3>ANPR Technology</h3>
+                    <p>Install ANPR technology in all slip roads and mainline plaza lanes to fully close the road and track all vehicle entries and exits</p>
+                </div>
+                <div class="objective-card" data-aos="fade-up" data-delay="400">
+                    <div class="objective-number">04</div>
+                    <h3>Customer Experience</h3>
+                    <p>Deliver an improved customer experience with a full range of different products and cloud-based solutions</p>
+                </div>
+                <div class="objective-card" data-aos="fade-up" data-delay="500">
+                    <div class="objective-number">05</div>
+                    <h3>Zero Disruption</h3>
+                    <p>Complete the upgrade without affecting current traffic and toll collection operations</p>
+                </div>
+                <div class="objective-card" data-aos="fade-up" data-delay="600">
+                    <div class="objective-number">06</div>
+                    <h3>Working in the Cloud</h3>
+                    <p>Reduce the physical assets to be maintained and use the Cloud as possible</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scope of Works -->
+    <section class="section scope-section" id="scope">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Scope of Works</span>
+                <h2 class="section-title">Scope of <span class="gradient-text">Works</span></h2>
+                <p class="section-description">
+                    Comprehensive end-to-end tolling solution covering roadside equipment, 
+                    operational systems, and commercial platforms.
+                </p>
+            </div>
+            <div class="scope-diagram" data-aos="fade-up">
+                <div class="scope-arch">
+                    <div class="scope-arch-col">
+                        <div class="scope-arch-header">
+                            <i class="fas fa-road"></i>
+                            <span>Roadside</span>
+                        </div>
+                        <div class="scope-arch-items">
+                            <div class="scope-arch-item">Conventional Toll Lanes</div>
+                            <div class="scope-arch-item">Wide-Load Lanes</div>
+                            <div class="scope-arch-item">ANPR Free-Flow Gantries</div>
+                        </div>
+                    </div>
+                    <div class="scope-arch-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="scope-arch-col">
+                        <div class="scope-arch-header">
+                            <i class="fas fa-server"></i>
+                            <span>Central Systems</span>
+                        </div>
+                        <div class="scope-arch-items">
+                            <div class="scope-arch-item">Plaza Management (TPMS)</div>
+                            <div class="scope-arch-item">Toll Point Controllers (TPCC)</div>
+                            <div class="scope-arch-item">AAVI Image Review</div>
+                        </div>
+                    </div>
+                    <div class="scope-arch-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="scope-arch-col">
+                        <div class="scope-arch-header">
+                            <i class="fas fa-database"></i>
+                            <span>Back Office</span>
+                        </div>
+                        <div class="scope-arch-items">
+                            <div class="scope-arch-item">Operational Back Office (OBO)</div>
+                            <div class="scope-arch-item">Commercial Back Office (CBO)</div>
+                            <div class="scope-arch-item">Customer Web Portal</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scope-grid">
+                <div class="scope-card" data-aos="zoom-in" data-delay="100">
+                    <div class="scope-icon">
+                        <i class="fas fa-traffic-light"></i>
+                    </div>
+                    <h3>Toll Lanes</h3>
+                    <p>Standard and Wide-Load toll lanes with Automatic Machine (bank cards) and DSRC Electronic Toll Collection</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="150">
+                    <div class="scope-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>Toll Plaza Management</h3>
+                    <p>Complete Toll Plaza Management System for efficient plaza operations and monitoring</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="200">
+                    <div class="scope-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>ANPR Free-Flow</h3>
+                    <p>ANPR-Only single gantry Roadside Equipment for seamless free-flow tolling</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="250">
+                    <div class="scope-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>TPCC</h3>
+                    <p>Toll Point Concentrator and Controllers managing data flow between roadside and back-office systems</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="300">
+                    <div class="scope-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AAVI System</h3>
+                    <p>Advanced Automatic Vehicle Identification for manual image review minimization</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="350">
+                    <div class="scope-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Operational Back Office</h3>
+                    <p>OBO with trip building functionality for complete toll transaction processing</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="400">
+                    <div class="scope-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Public Web Portal</h3>
+                    <p>Contact channels including public web portal for customer self-service</p>
+                </div>
+                <div class="scope-card" data-aos="zoom-in" data-delay="450">
+                    <div class="scope-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Commercial Back Office</h3>
+                    <p>CBO with Data Migration from old system and interfaces with banks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadside Technology -->
+    <section class="section tolling-section" id="tolling">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Scope of Works</span>
+                <h2 class="section-title">Roadside <span class="gradient-text">Technology</span></h2>
+            </div>
+            <div class="tolling-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="conventional">
+                        <i class="fas fa-toll-booth"></i>
+                        Conventional Tolling
+                    </button>
+                    <button class="tab-btn" data-tab="freeflow">
+                        <i class="fas fa-satellite-dish"></i>
+                        Free-Flow Tolling
+                    </button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-panel active" id="conventional">
+                        <div class="panel-layout">
+                            <div class="panel-info">
+                                <h3>Conventional Tolling</h3>
+                                <p class="panel-highlight">
+                                    <strong>45 toll lanes</strong> (7 of them extra-wide type) in <strong>7 toll plazas</strong>
+                                </p>
+                                <ul class="panel-features">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        SICE toll lanes based on standard hardware and own software applications
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Integration of existing equipment: DSRC antennas, telephony system, automatic barriers
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Integration of third-party payment means (Payter bank card readers) in cashless kiosks
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Wide-Load Lanes for exceptional extra-wide vehicles
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Special strategy for fast transition to the new system
+                                    </li>
+                                </ul>
+                                <div class="payment-methods">
+                                    <p class="payment-methods-title">Accepted Payment Methods</p>
+                                    <div class="payment-cards">
+                                        <div class="payment-card">
+                                            <i class="fas fa-satellite-dish"></i>
+                                            <span>TAG</span>
+                                        </div>
+                                        <div class="payment-card">
+                                            <i class="fas fa-camera"></i>
+                                            <span>ANPR</span>
+                                        </div>
+                                        <div class="payment-card">
+                                            <i class="fas fa-credit-card"></i>
+                                            <span>PAYG</span>
+                                        </div>
+                                        <div class="payment-card">
+                                            <i class="fas fa-file-invoice"></i>
+                                            <span>PCN</span>
+                                        </div>
+                                        <div class="payment-card">
+                                            <i class="fas fa-gas-pump"></i>
+                                            <span>Fuel Card</span>
+                                        </div>
+                                        <div class="payment-card">
+                                            <i class="fas fa-shield-alt"></i>
+                                            <span>Exempt</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-visual">
+                                <div class="toll-stats">
+                                    <div class="toll-stat">
+                                        <span class="toll-stat-number">45</span>
+                                        <span class="toll-stat-label">Toll Lanes</span>
+                                    </div>
+                                    <div class="toll-stat">
+                                        <span class="toll-stat-number">7</span>
+                                        <span class="toll-stat-label">Wide-Load Lanes</span>
+                                    </div>
+                                    <div class="toll-stat">
+                                        <span class="toll-stat-number">7</span>
+                                        <span class="toll-stat-label">Toll Plazas</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="freeflow">
+                        <div class="panel-layout panel-layout--freeflow">
+                            <div class="panel-info">
+                                <h3>Free-Flow Tolling</h3>
+                                <p class="panel-highlight">
+                                    <strong>ANPR-only</strong> free-flow sites with flexible deployment options
+                                </p>
+                                <ul class="panel-features">
+                                    <li><i class="fas fa-check-circle"></i>ANPR-only free-flow sites — no classification nor tag reading (done at conventional toll lanes)</li>
+                                    <li><i class="fas fa-check-circle"></i>Flexibility to adapt to different sites and infrastructures selected by the client</li>
+                                    <li><i class="fas fa-check-circle"></i>Multiple deployment types: movable poles, gantry, and overbridges</li>
+                                    <li><i class="fas fa-check-circle"></i>Different solutions to ease maintenance</li>
+                                </ul>
+                            </div>
+                            <div class="site-gallery">
+                                <div class="site-gallery-btns">
+                                    <button class="site-gallery-btn active" data-site="pole">
+                                        <span class="site-gallery-count">12</span>
+                                        <span class="site-gallery-name">Pole-Type Sites</span>
+                                    </button>
+                                    <button class="site-gallery-btn" data-site="gantry">
+                                        <span class="site-gallery-count">3</span>
+                                        <span class="site-gallery-name">Gantry-Type Sites</span>
+                                    </button>
+                                    <button class="site-gallery-btn" data-site="overbridge">
+                                        <span class="site-gallery-count">4</span>
+                                        <span class="site-gallery-name">Overbridge Sites</span>
+                                    </button>
+                                </div>
+                                <div class="site-gallery-display">
+                                    <img class="site-gallery-img active" data-site="pole" src="images/freeflow-pole-type.jpg" alt="Pole-Type Sites">
+                                    <img class="site-gallery-img" data-site="gantry" src="images/freeflow-under-bridge.jpg" alt="Gantry-Type Sites">
+                                    <img class="site-gallery-img" data-site="overbridge" src="images/freeflow-gantry-type.jpg" alt="Overbridge Sites">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOMS Section -->
+    <section class="section moms-section" id="moms">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Scope of Works</span>
+                <h2 class="section-title">MOMS — Maintenance Online <span class="gradient-text">Monitoring System</span></h2>
+                <p class="section-description">Central monitoring of alarms and remote management of toll points roadside systems.</p>
+            </div>
+            <div class="moms-layout" data-aos="fade-up">
+                <div class="moms-info">
+                    <div class="moms-highlight">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Well suited for centralised operations overseeing remote and widely dispersed assets across extensive geographic areas.</p>
+                    </div>
+                    <ul class="panel-features">
+                        <li><i class="fas fa-check-circle"></i>Real-time map view of all toll points along the M6 route</li>
+                        <li><i class="fas fa-check-circle"></i>Operational, Quality, TPCC, TOS and AAVI alarm management</li>
+                        <li><i class="fas fa-check-circle"></i>Remote lane management and diagnostics from a single interface</li>
+                        <li><i class="fas fa-check-circle"></i>Integration with ZABBIX infrastructure monitoring and AAVI system</li>
+                    </ul>
+                </div>
+                <div class="moms-gallery">
+                    <div class="site-gallery-btns">
+                        <button class="site-gallery-btn active" data-moms="network">
+                            <i class="fas fa-globe-europe site-gallery-icon"></i>
+                            <span class="site-gallery-name">Network Overview Solution</span>
+                        </button>
+                        <button class="site-gallery-btn" data-moms="site">
+                            <i class="fas fa-map-pin site-gallery-icon"></i>
+                            <span class="site-gallery-name">Site Dedicated Map</span>
+                        </button>
+                    </div>
+                    <div class="site-gallery-display">
+                        <img class="site-gallery-img active" data-moms="network" src="images/moms-screenshot.png" alt="Network Overview Solution">
+                        <img class="site-gallery-img" data-moms="site" src="images/rlm.jpg" alt="Site Dedicated Map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AAVI Section -->
+    <section class="section aavi-section" id="aavi">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Scope of Works</span>
+                <h2 class="section-title">Advanced Image <span class="gradient-text">Review (AAVI)</span></h2>
+                <p class="section-description">
+                    Minimise the number of transactions requiring Manual Verification and therefore reduce operational costs.
+                </p>
+            </div>
+            <div class="aavi-points" data-aos="fade-up">
+                <div class="aavi-point">
+                    <i class="fas fa-check-circle"></i>
+                    <span>SICE’s AAVI Solution is based on three automatic validation processes and an optimised manual review tool</span>
+                </div>
+                <div class="aavi-point">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Exception rules, Second OCR + Validation rules, and Fingerprinting (Machine Learning &amp; Deep Learning)</span>
+                </div>
+                <div class="aavi-point">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Optimised manual image review &amp; database of reference images</span>
+                </div>
+            </div>
+            <div class="aavi-gallery" data-aos="fade-up">
+                <div class="site-gallery-btns">
+                    <button class="site-gallery-btn active" data-aavi="aavi1">
+                        <i class="fas fa-images site-gallery-icon"></i>
+                        <span class="site-gallery-name">AAVI Overview</span>
+                    </button>
+                    <button class="site-gallery-btn" data-aavi="aavi3">
+                        <i class="fas fa-search site-gallery-icon"></i>
+                        <span class="site-gallery-name">Image Review Detail</span>
+                    </button>
+                </div>
+                <div class="site-gallery-display">
+                    <img class="site-gallery-img active" data-aavi="aavi1" src="images/aavi1.jpg" alt="AAVI Overview">
+                    <img class="site-gallery-img" data-aavi="aavi3" src="images/aavi3.jpg" alt="AAVI Image Review Detail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Office Section -->
+    <section class="section backoffice-section" id="backoffice">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Scope of Works</span>
+                <h2 class="section-title">SIDERA Tolling <span class="gradient-text">Back-Office</span></h2>
+                <p class="section-description">
+                    SICE's proprietary platform for Operational and Commercial Back Office — 
+                    a comprehensive cloud-deployed solution on Oracle Cloud.
+                </p>
+            </div>
+            <div class="tolling-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="obo">
+                        <i class="fas fa-cog"></i>
+                        Operational Back-Office
+                    </button>
+                    <button class="tab-btn" data-tab="cbo">
+                        <i class="fas fa-briefcase"></i>
+                        Commercial Back-Office &amp; Website
+                    </button>
+                </div>
+                <div class="tab-content">
+
+                    <!-- OBO Tab -->
+                    <div class="tab-panel active" id="obo">
+                        <div class="panel-info" style="margin-bottom:32px;">
+                            <h3>Operational Back-Office (TOS)</h3>
+                            <p class="panel-highlight">Central platform connecting roadside equipment with the commercial billing layer</p>
+                            <div class="bo-modules">
+                                <div class="module-tag"><i class="fas fa-route"></i> Toll Rating</div>
+                                <div class="module-tag"><i class="fas fa-exclamation-triangle"></i> Alarms</div>
+                                <div class="module-tag"><i class="fas fa-tasks"></i> Actions Management</div>
+                                <div class="module-tag"><i class="fas fa-sliders-h"></i> Parameterization</div>
+                                <div class="module-tag"><i class="fas fa-shield-alt"></i> Security</div>
+                                <div class="module-tag"><i class="fas fa-car"></i> AAVI</div>
+                                <div class="module-tag"><i class="fas fa-clipboard-check"></i> Audit</div>
+                                <div class="module-tag"><i class="fas fa-images"></i> Image Review</div>
+                                <div class="module-tag"><i class="fas fa-road"></i> Trip Building</div>
+                                <div class="module-tag"><i class="fas fa-tags"></i> Dynamic Pricing</div>
+                                <div class="module-tag"><i class="fas fa-server"></i> Toll Stations Interface</div>
+                                <div class="module-tag"><i class="fas fa-exchange-alt"></i> Transaction Processing</div>
+                            </div>
+                        </div>
+
+                        <!-- Sequential Flow Diagram -->
+                        <div class="obo-flow" data-aos="fade-up">
+                            <div class="obo-flow-header">
+                                <h4 class="obo-flow-title"><i class="fas fa-stream"></i> Transaction Processing Pipeline</h4>
+                                <p class="obo-flow-subtitle">Click <strong>Next Step</strong> to walk through how a transit becomes a rated trip</p>
+                            </div>
+                            <div class="obo-flow-track">
+                                <div class="obo-step pending" data-step="1">
+                                    <div class="obo-step-badge">01</div>
+                                    <div class="obo-step-card">
+                                        <div class="obo-step-icon"><i class="fas fa-exchange-alt"></i></div>
+                                        <h5>Transits Received</h5>
+                                        <p>Raw toll transactions arrive from all roadside equipment &#8212; conventional lanes &amp; freeflow gantries &#8212; and are ingested by the OBO.</p>
+                                    </div>
+                                </div>
+                                <div class="obo-connector" data-after="1"><i class="fas fa-chevron-right"></i></div>
+                                <div class="obo-step pending" data-step="2">
+                                    <div class="obo-step-badge">02</div>
+                                    <div class="obo-step-card">
+                                        <div class="obo-step-icon"><i class="fas fa-clock"></i></div>
+                                        <h5>Temporal Trips</h5>
+                                        <p>Transactions are grouped into candidate trips by correlating vehicle identity, timestamps and route &#8212; forming preliminary trip records.</p>
+                                    </div>
+                                </div>
+                                <div class="obo-connector" data-after="2"><i class="fas fa-chevron-right"></i></div>
+                                <div class="obo-step pending" data-step="3">
+                                    <div class="obo-step-badge">03</div>
+                                    <div class="obo-step-card">
+                                        <div class="obo-step-icon"><i class="fas fa-flag-checkered"></i></div>
+                                        <h5>Final Trip Built</h5>
+                                        <p>Once the trip timeout expires with no further transactions, the candidate group is consolidated into a definitive, immutable trip record.</p>
+                                    </div>
+                                </div>
+                                <div class="obo-connector" data-after="3"><i class="fas fa-chevron-right"></i></div>
+                                <div class="obo-step pending" data-step="4">
+                                    <div class="obo-step-badge">04</div>
+                                    <div class="obo-step-card">
+                                        <div class="obo-step-icon"><i class="fas fa-paper-plane"></i></div>
+                                        <h5>Trip Rated &amp; Sent to CBO</h5>
+                                        <p>A tariff is applied based on vehicle class, product type and route. The rated trip is dispatched to the Commercial Back-Office for billing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="obo-flow-controls">
+                                <button class="obo-btn-reset" id="oboReset"><i class="fas fa-undo"></i> Reset</button>
+                                <div class="obo-step-counter"><span id="oboStepCurrent">0</span> / 4</div>
+                                <button class="obo-btn-next" id="oboNext"><i class="fas fa-play"></i> Start</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CBO Tab -->
+                    <div class="tab-panel" id="cbo">
+                        <div class="panel-info" style="margin-bottom:32px;">
+                            <h3>Commercial Back-Office &amp; Customer Website (BIS)</h3>
+                            <p class="panel-highlight">Full commercial layer: accounts, billing, enforcement and customer-facing web portal</p>
+                            <div class="cbo-cards">
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-user-circle"></i></div>
+                                    <h4>Accounts</h4>
+                                    <p>Full lifecycle management of customer accounts — registration, profile updates, product assignments and account status control.</p>
+                                </div>
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                                    <h4>Billing &amp; Invoicing</h4>
+                                    <p>Automated charge calculation, statement generation and invoice issuance across all payment methods and product types.</p>
+                                </div>
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-headset"></i></div>
+                                    <h4>Customer Service</h4>
+                                    <p>Operator portal for handling enquiries, disputes, refunds and account adjustments — integrated with ticketing workflows.</p>
+                                </div>
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-balance-scale"></i></div>
+                                    <h4>Enforcement</h4>
+                                    <p>End-to-end debt recovery and prosecution workflow for unpaid tolls — from first notice through to legal enforcement.</p>
+                                </div>
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-box-open"></i></div>
+                                    <h4>Products</h4>
+                                    <p>Configurable toll products, tariff schemes and promotional offers — supporting TAG, PAYG, pre-pay and fleet contracts.</p>
+                                </div>
+                                <div class="cbo-card">
+                                    <div class="cbo-card-icon"><i class="fas fa-plug"></i></div>
+                                    <h4>Interface Management</h4>
+                                    <p>Secure data exchange with banks, TAG issuers, DVLA, interoperability hubs and third-party payment processors.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Website screenshots -->
+                        <div class="cbo-screenshots">
+                            <!-- Operator View: single click-to-zoom -->
+                            <div class="cbo-screenshot-card">
+                                <div class="cbo-screenshot-label">
+                                    <i class="fas fa-desktop"></i>
+                                    Operator View
+                                </div>
+                                <div class="cbo-screenshot-frame">
+                                    <img src="images/cbo-operator.jpg" alt="CBO Operator View" data-lightbox-single>
+                                </div>
+                            </div>
+                            <!-- Customer View: two phone screenshots open as gallery -->
+                            <div class="cbo-screenshot-card">
+                                <div class="cbo-screenshot-label">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Customer View — Responsive Website
+                                </div>
+                                <div class="cbo-phone-row">
+                                    <div class="cbo-phone-frame">
+                                        <img src="images/web1.jpg" alt="Customer Website — Screen 1" data-lightbox-gallery="customer" data-gallery-index="0">
+                                    </div>
+                                    <div class="cbo-phone-frame">
+                                        <img src="images/web2.jpg" alt="Customer Website — Screen 2" data-lightbox-gallery="customer" data-gallery-index="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project Timeline Section -->
+    <!-- KPI Section -->
+    <section class="section kpi-section" id="kpi">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Performance</span>
+                <h2 class="section-title">System <span class="gradient-text">KPIs</span></h2>
+                <p class="section-desc">NTS Freeflow &amp; Overbridge performance metrics &mdash; May 2025 to February 2026</p>
+            </div>
+
+            <!-- Summary cards -->
+            <div class="kpi-summary" data-aos="fade-up">
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--q">Quarterly</span>
+                    <div class="kpi-code">NTS-KPI-AC-01</div>
+                    <div class="kpi-name">Detection Accuracy</div>
+                    <div class="kpi-value">99.99%</div>
+                    <div class="kpi-target">Target &ge; 99.90%</div>
+                    <div class="kpi-bar-wrap" data-min="99.7" data-target="99.90" data-val="99.99">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>99.70%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--q">Quarterly</span>
+                    <div class="kpi-code">NTS-KPI-AC-07</div>
+                    <div class="kpi-name">VRN Image Association Accuracy</div>
+                    <div class="kpi-value">99.92%</div>
+                    <div class="kpi-target">Target &ge; 99.90%</div>
+                    <div class="kpi-bar-wrap" data-min="99.7" data-target="99.90" data-val="99.92">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>99.70%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--m">Monthly</span>
+                    <div class="kpi-code">NTS-KPI-AC-08</div>
+                    <div class="kpi-name">VRN Image Capture</div>
+                    <div class="kpi-value">99.93%</div>
+                    <div class="kpi-target">Target &ge; 99.70%</div>
+                    <div class="kpi-bar-wrap" data-min="99.5" data-target="99.70" data-val="99.93">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>99.50%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--q">Quarterly</span>
+                    <div class="kpi-code">NTS-KPI-AC-09</div>
+                    <div class="kpi-name">ANPR Obtention Accuracy</div>
+                    <div class="kpi-value">99.94%</div>
+                    <div class="kpi-target">Target &ge; 99.90%</div>
+                    <div class="kpi-bar-wrap" data-min="99.7" data-target="99.90" data-val="99.94">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>99.70%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--m">Monthly</span>
+                    <div class="kpi-code">NTS-KPI-AC-10</div>
+                    <div class="kpi-name">Correct ANPR Accuracy</div>
+                    <div class="kpi-value">99.70%</div>
+                    <div class="kpi-target">Target &ge; 98.80%</div>
+                    <div class="kpi-bar-wrap" data-min="98.5" data-target="98.80" data-val="99.70">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>98.50%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card kpi-pass">
+                    <span class="kpi-badge kpi-badge--m">Monthly</span>
+                    <div class="kpi-code">NTS-KPI-AV-01</div>
+                    <div class="kpi-name">ANPR Controller Availability</div>
+                    <div class="kpi-value">100.00%</div>
+                    <div class="kpi-target">Target &ge; 99.99%</div>
+                    <div class="kpi-bar-wrap" data-min="99.8" data-target="99.99" data-val="100.00">
+                        <div class="kpi-bar-track">
+                            <div class="kpi-bar-fill"></div>
+                            <div class="kpi-bar-target-line"></div>
+                        </div>
+                        <div class="kpi-bar-labels"><span>99.80%</span><span>100%</span></div>
+                    </div>
+                </div>
+
+            </div><!-- end .kpi-summary -->
+
+
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+    <section class="section proj-timeline-section" id="proj-timeline">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Journey</span>
+                <h2 class="section-title">Project <span class="gradient-text">Timeline</span></h2>
+            </div>
+            <div class="ptl-track" data-aos="fade-up">
+                <!-- spine line -->
+                <div class="ptl-spine"></div>
+
+                <div class="ptl-item">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">March</span><span class="ptl-year">2022</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-trophy"></i></div>
+                        <h4>Award</h4>
+                        <p>Contract awarded by MEL, entrusting SICE with design and implementation of the new tolling system.</p>
+                    </div>
+                </div>
+
+                <div class="ptl-item">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">May</span><span class="ptl-year">2022</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Development Kick-off</h4>
+                        <p>Agile sprints begin across back-office and roadside workstreams with continuous integration established.</p>
+                    </div>
+                </div>
+
+                <div class="ptl-item">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">September</span><span class="ptl-year">2022</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-drafting-compass"></i></div>
+                        <h4>Design Completed</h4>
+                        <p>System architecture, roadside equipment design and software specifications signed off by the client.</p>
+                    </div>
+                </div>
+
+                <div class="ptl-item">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">April</span><span class="ptl-year">2023</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-credit-card"></i></div>
+                        <h4>First Lane PAYG</h4>
+                        <p>First live toll lane accepting Pay-As-You-Go — validating end-to-end system integration.</p>
+                    </div>
+                </div>
+
+                <div class="ptl-item">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">Summer &ndash; Autumn</span><span class="ptl-year">2023</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-vial"></i></div>
+                        <h4>PAYG Validation &amp; UAT</h4>
+                        <p>PAYG validation and user acceptance testing across lanes, freeflow gantries and back-office modules.</p>
+                    </div>
+                </div>
+
+                <div class="ptl-item ptl-item--final">
+                    <div class="ptl-dot"></div>
+                    <div class="ptl-date"><span class="ptl-month">January</span><span class="ptl-year">2024</span></div>
+                    <div class="ptl-card">
+                        <div class="ptl-icon"><i class="fas fa-rocket"></i></div>
+                        <h4>Data Migration &amp; Go-Live</h4>
+                        <p>Legacy data migrated and all toll plazas go live on the new SICE platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-mark">SIC<span class="logo-e">E</span></div>
+                    </div>
+                    <p>Engineering innovation in intelligent transportation systems since 1921. Part of ACS Group.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Project</h4>
+                        <ul>
+                            <li><a href="#overview">Project Overview</a></li>
+                            <li><a href="#scope">Scope of Works</a></li>
+                            <li><a href="#tolling">Roadside Technology</a></li>
+                            <li><a href="#aavi">Image Review</a></li>
+                            <li><a href="#moms">MOMS</a></li>
+                            <li><a href="#backoffice">Back Office</a></li>
+                            <li><a href="#kpi">KPIs</a></li>
+                            <li><a href="#proj-timeline">Timeline</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About SICE</a></li>
+                            <li><a href="https://www.sice.com" target="_blank">Corporate Site</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SICE. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox overlay -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+        <div class="lightbox-content">
+            <img class="lightbox-img" id="lightboxImg" src="" alt="">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
