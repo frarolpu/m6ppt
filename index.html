@@ -517,6 +517,139 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Equipment Migration Strategy -->
+                        <div class="eqm-wrap">
+                            <div class="eqm-header">
+                                <h3>Equipment <span>Migration Strategy</span></h3>
+                                <p>Phased approach to install, test and go-live whilst keeping lanes operational and traffic uninterrupted at all times.</p>
+                            </div>
+
+                            <div class="eqm-phase-nav">
+                                <button class="eqm-phase-btn eqm-active-1" onclick="eqmShowPhase(1)" id="eqm-btn1">
+                                    <span class="eqm-phase-num">1</span> Migration Works
+                                </button>
+                                <span class="eqm-phase-arrow">→</span>
+                                <button class="eqm-phase-btn" onclick="eqmShowPhase(2)" id="eqm-btn2">
+                                    <span class="eqm-phase-num">2</span> Go-Live
+                                </button>
+                                <span class="eqm-phase-arrow">→</span>
+                                <button class="eqm-phase-btn" onclick="eqmShowPhase(3)" id="eqm-btn3">
+                                    <span class="eqm-phase-num">3</span> Current State
+                                </button>
+                            </div>
+
+                            <!-- Phase 1 -->
+                            <div class="eqm-panel active" id="eqm-phase1">
+                                <div class="eqm-relay-wrap">
+                                    <div class="eqm-card old">
+                                        <div class="eqm-card-header"><span class="eqm-dot"></span> Old System — Kept Live</div>
+                                        <ul class="eqm-list">
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Entry Barrier</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Entry Loop</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Antenna</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> DMS</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Presence Loop</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Intercom Button</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Printer</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Receipt Button</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Exit Optical Barrier</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Traffic Light</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Exit Barrier</li>
+                                            <li class="eqm-amber"><span class="eqm-icon">▶</span> Exit Loop</li>
+                                        </ul>
+                                    </div>
+                                    <div class="eqm-relay-center">
+                                        <div class="eqm-relay-icon">⚡</div>
+                                        <div class="eqm-relay-badge">Automatic<br>Relay Switch</div>
+                                        <div class="eqm-relay-arrows">⇄</div>
+                                    </div>
+                                    <div class="eqm-card new">
+                                        <div class="eqm-card-header"><span class="eqm-dot"></span> SICE New — Testing</div>
+                                        <ul class="eqm-list">
+                                            <li class="eqm-teal"><span class="eqm-icon">✦</span> Front ANPR Camera</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✦</span> Rear ANPR Camera</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✦</span> Entry Optical Barrier</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✦</span> Context Camera</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="eqm-context-note">
+                                    <strong>How it worked:</strong> During installation, old elements remained active and running normally.
+                                    An <strong>automatic relay</strong> swapped all lane signals to the SICE system whenever testing was required —
+                                    zero manual intervention needed, zero lane downtime for passing traffic.
+                                </div>
+                            </div>
+
+                            <!-- Phase 2 -->
+                            <div class="eqm-panel" id="eqm-phase2">
+                                <div class="eqm-golive-wrap">
+                                    <div class="eqm-golive-label">System Live</div>
+                                    <div class="eqm-golive-groups">
+                                        <div class="eqm-golive-group">
+                                            <div class="eqm-golive-group-title amber">From Old System (12 items)</div>
+                                            <div class="eqm-pill-grid">
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Entry Barrier</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Entry Loop</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Antenna</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>DMS</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Presence Loop</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Intercom Button</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Printer</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Receipt Button</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Exit Optical Barrier</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Traffic Light</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Exit Barrier</span>
+                                                <span class="eqm-pill amber"><span class="eqm-live-dot"></span>Exit Loop</span>
+                                            </div>
+                                        </div>
+                                        <div class="eqm-golive-group">
+                                            <div class="eqm-golive-group-title teal">SICE Installed (4 items)</div>
+                                            <div class="eqm-pill-grid">
+                                                <span class="eqm-pill teal"><span class="eqm-live-dot"></span>Front ANPR Camera</span>
+                                                <span class="eqm-pill teal"><span class="eqm-live-dot"></span>Rear ANPR Camera</span>
+                                                <span class="eqm-pill teal"><span class="eqm-live-dot"></span>Entry Optical Barrier</span>
+                                                <span class="eqm-pill teal"><span class="eqm-live-dot"></span>Context Camera</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Phase 3 -->
+                            <div class="eqm-panel" id="eqm-phase3">
+                                <div class="eqm-phase3-wrap">
+                                    <div class="eqm-card replaced">
+                                        <div class="eqm-card-header"><span class="eqm-dot"></span> Replaced by SICE</div>
+                                        <ul class="eqm-list">
+                                            <li class="eqm-teal"><span class="eqm-icon">✓</span> Entry Barrier</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✓</span> DMS</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✓</span> Exit Optical Separator</li>
+                                            <li class="eqm-teal"><span class="eqm-icon">✓</span> Antenna</li>
+                                            <li class="eqm-removed"><span class="eqm-icon">✕</span> Printer (removed)</li>
+                                            <li class="eqm-removed"><span class="eqm-icon">✕</span> Receipt Button (removed)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="eqm-card retained">
+                                        <div class="eqm-card-header"><span class="eqm-dot"></span> Still Using from Old System</div>
+                                        <ul class="eqm-list">
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Entry Loop</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Presence Loop</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Antenna</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Exit Loop</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Traffic Light</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Intercom Button</li>
+                                            <li class="eqm-gray"><span class="eqm-icon">○</span> Exit Barrier</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="eqm-legend">
+                                    <div class="eqm-legend-item"><div class="eqm-legend-dot" style="background:var(--color-primary)"></div> Replaced by SICE</div>
+                                    <div class="eqm-legend-item"><div class="eqm-legend-dot" style="background:#6b7280"></div> Retained from old system</div>
+                                    <div class="eqm-legend-item"><div class="eqm-legend-dot" style="background:#ef4444"></div> Removed entirely</div>
+                                </div>
+                            </div>
+                        </div><!-- /eqm-wrap -->
                     </div>
                     <div class="tab-panel" id="freeflow">
                         <div class="panel-layout panel-layout--freeflow">

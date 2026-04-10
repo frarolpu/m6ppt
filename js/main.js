@@ -371,6 +371,18 @@ function initOboFlow() {
     nextBtn.addEventListener('click', advance);
     resetBtn.addEventListener('click', reset);
 }
+/* --- Equipment Migration Phase Switcher --- */
+function eqmShowPhase(n) {
+    document.querySelectorAll('.eqm-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.eqm-phase-btn').forEach(b => {
+        b.className = 'eqm-phase-btn';
+    });
+    const panel = document.getElementById('eqm-phase' + n);
+    if (panel) panel.classList.add('active');
+    const btn = document.getElementById('eqm-btn' + n);
+    if (btn) btn.classList.add('eqm-active-' + n);
+}
+
 /* --- KPI Charts --- */
 function initKpiCharts() {
     if (typeof Chart === 'undefined') return;
